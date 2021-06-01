@@ -19,7 +19,8 @@ AppDynamics
 Apple TV (2nd generation)
 Apple TV (3rd generation)
 Apple TV (4th generation)
-Apple TV 4K
+Apple TV 4K (2018)
+Apple TV 4K (2021)
 Appliance
 ArchiveTeam Warrior
 Asset Management

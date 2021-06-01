@@ -1817,8 +1817,22 @@
 
   <!-- Apple TV -->
 
+  <fingerprint pattern="^model=(?:J305AP|AppleTV11,1)$">
+    <description>Apple TV 4K (2021)</description>
+    <example>model=J305AP</example>
+    <example>model=AppleTV11,1</example>
+    <param pos="0" name="os.vendor" value="Apple"/>
+    <param pos="0" name="os.family" value="tvOS"/>
+    <param pos="0" name="os.product" value="tvOS"/>
+    <param pos="0" name="os.cpe23" value="cpe:/o:apple:tvos:-"/>
+    <param pos="0" name="hw.vendor" value="Apple"/>
+    <param pos="0" name="hw.family" value="Apple TV"/>
+    <param pos="0" name="hw.product" value="Apple TV 4K (2021)"/>
+    <param pos="0" name="hw.device" value="Media Server"/>
+  </fingerprint>
+
   <fingerprint pattern="^model=(?:J105aAP|AppleTV6,2)$">
-    <description>Apple TV 4K</description>
+    <description>Apple TV 4K (2018)</description>
     <example>model=J105aAP</example>
     <example>model=AppleTV6,2</example>
     <param pos="0" name="os.vendor" value="Apple"/>
@@ -1827,7 +1841,7 @@
     <param pos="0" name="os.cpe23" value="cpe:/o:apple:tvos:-"/>
     <param pos="0" name="hw.vendor" value="Apple"/>
     <param pos="0" name="hw.family" value="Apple TV"/>
-    <param pos="0" name="hw.product" value="Apple TV 4K"/>
+    <param pos="0" name="hw.product" value="Apple TV 4K (2018)"/>
     <param pos="0" name="hw.device" value="Media Server"/>
   </fingerprint>
 
